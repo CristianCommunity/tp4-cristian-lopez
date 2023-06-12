@@ -9,8 +9,6 @@ const port = 6000;
 
 app.use(morgan('dev'));
 
-
-
 app.use(require('./routes/app.routes'));
 
 app.listen(port, () => {

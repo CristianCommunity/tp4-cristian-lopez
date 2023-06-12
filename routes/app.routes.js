@@ -10,7 +10,7 @@ router.post(`/`, post);
 
 router.put(`/`, put);
 
-router.delet(`/`, delet);
+router.delete(`/`, delet);
 
 
 module.exports = router;
